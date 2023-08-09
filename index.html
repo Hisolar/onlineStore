@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./assets/css/app.css" />
-  <title>Tailwind CSS v 2 Boiler plate</title>
+  <title>Online Store</title>
 </head>
-<body>
-  <div class="bg-gray-200 h-screen flex items-center justify-center p-6">
-    Welcome to TailwindCSS v2 BoilerPlate
+
+<body class="bg-red-100">
+  <header class="container mx-auto px-6 lg:px-0">
+    <div class="flex items-center justify-between">
+      <img src="./assets/image/logo.png" alt="">
+      <div class="flex items-center gap-32 uppercase">
+        <div class="bg-gradient-to-b from-white to-red-100 w-24 h-24 text-center ">
+          <a href="">Home</a>
+        </div>
+        <a href="">Products</a>
+        <a href="">About Us</a>
+        <a href="">Contact Us</a>
+        <div class="bg-red-500 h-10 w-44 rounded-full flex gap-3 items-center justify-center py-4 text-white">
+          <img src="./assets/image/cart.png" alt="">
+          <a href="">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="container mx-auto px-6 lg:px-0">
+<div class="flex items-end justify-between bg-yellow-500">
+  <div class="flex items-end gap-10">
+      <div><img src="./assets/image/image 1.png" alt=""></div>
+  <div><img src="./assets/image/image 2.png" alt=""></div>
   </div>
+
+  <div class="flex flex-col items- justify-center">
+    <p>NEW ARRIVAL</p>
+    <h1 class=" w-1/2 text-8xl font-bold"> JUST
+      FOR <span class="text-red-500 font-black"> YOU</span> </h1>
+      <div class="flex">
+        <div class="bg-black w-52 h-16 text-white text-center"><h1 class="font-bold text-2xl">FOR ONLINE</h1>
+        <p>order</p></div>
+      
+        <div class="bg-red-500 w-20 h-16 text-white text-center">
+          <h1 class="font-bold text-2xl leading-tight">30% OFF</h1>
+        </div>
+      </div>
+  </div>
+</div>
+  </section>
 </body>
+
 </html>
